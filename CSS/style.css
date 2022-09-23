@@ -1,0 +1,111 @@
+@charset "UTF-8";
+*{
+  margin: 0;
+  padding: 0;
+}
+.cover{
+  margin: 0px auto;
+  width: 100%;
+}
+.main{
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../image/nature 2.jpg");
+  background-size: 100%;
+  overflow: hidden;
+}
+.nav{
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  float: left;
+}
+ul{
+  list-style-type: none;
+  float: left;
+}
+li{
+  float: left;
+  border-right: 1px solid white;
+}
+li:last-child{
+  border-right: none;
+}
+a{
+  text-decoration: none;
+  color: white;
+  display: block;
+  text-align: center;
+  padding: 24px 50px;
+  font-size: 24px;
+  font-family: 'Lobster Two', cursive;
+}
+a:hover{
+  background: rgba(214,214,32,.7);
+  transition: all .5s;
+}
+.search{
+  float: right;
+}
+.search input{
+  margin: 20px 20px 0px 0px;
+  width: 290px;
+  height: 30px;
+  border: 1px solid white;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.3);
+  font-size: 18px;
+  text-align: center;
+  color: rgb(0, 0, 0,.5);
+
+}
+.content{
+  width: 100%;
+  float: left;
+}
+/* Awesome font edit */
+ .fa-search{
+  color: white;
+  font-size: 18px;
+  padding-right: 10px;
+}
+/*.fa-leaf{
+  font-size: 100px;
+}
+.fa-temperature-high{
+  font-size: 100px;
+}
+.fa-child{
+  font-size: 100px;
+} */
+article i.fas{
+  font-size: 100px;
+}
+/* End awesome font edit */
+article{
+  width: 18%;
+  float: left;
+  margin-left: 6%;
+  background-color: rgba(255, 255, 0, 0.25);
+  color: black;
+  display: block;
+  text-align: center;
+  padding: 40px 40px 0px 40px;
+  margin-top: 200px;
+  height: 800px;
+  border-radius: 50px 50px 0px 0px;
+  font-size: 16px;
+  transition: all .5s;
+}
+article p,article h1{
+  margin-top: 20px;
+}
+article h1{
+  font-family: 'Lobster', cursive;
+}
+article p{
+  font-family: 'Merienda', cursive;
+}
+article:hover{
+  margin-top: 130px;
+  background-color: white;
+}
